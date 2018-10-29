@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SimplePlatformController : MonoBehaviour {
     [HideInInspector] public bool isFacingRight = true;
-    [HideInInspector] public bool jump = true;
+    [HideInInspector]public bool jump = false;
 
     public float moveForce = 365f;
     public float maxSpeed = 5f;
